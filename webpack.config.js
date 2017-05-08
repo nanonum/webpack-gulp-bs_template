@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 
+
 module.exports = {
   entry: {
     app: './src/js/main.js',
@@ -11,6 +12,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
+    // new webpack.optimize.UglifyJsPlugin({ minimize:true }),
+    // new webpack.optimize.OccurrenceOrderPlugin(),
+
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       chunks: ['app']
@@ -20,13 +24,15 @@ module.exports = {
         jQuery: 'jquery',
         'window.jQuery': 'jquery'
     }),
+
     // new webpack.ProvidePlugin({
     //     Vue: 'Vue'
     // })
   ],
   devtool: 'source-map',
-  // devServer: {
-  //   contentBase: 'dist',
-  //   port: 4000
-  // }
+  devServer: {
+    contentBase: 'dist',
+    port: 4000,
+    inline: true
+  }
 };
