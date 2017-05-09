@@ -2920,7 +2920,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 123:
+/***/ 125:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2976,7 +2976,7 @@ $(function(){
   // var m = new Model();
   // console.log(m);
 
-  $('#test1').html(__WEBPACK_IMPORTED_MODULE_1_moment___default()().format() + 'よっす3');
+  $('#test1').html(__WEBPACK_IMPORTED_MODULE_1_moment___default()().format() + '!!!');
   $('#test2').html('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
 })
@@ -2985,5 +2985,5 @@ $(function(){
 
 /***/ })
 
-},[123]);
+},[125]);
 //# sourceMappingURL=app.bundle.js.map

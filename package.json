@@ -6,11 +6,13 @@
   "scripts": {
     "start": "npm run start-serve & npm run webpack-watch",
     "start-serve": "browser-sync start --config bs-config.js",
-    "webpack-watch": "webpack --config webpack.config.js --watch --hot"
+    "webpack-watch": "webpack --config webpack.config.js --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^2.0.0",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
@@ -18,13 +20,19 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^2.0.0",
     "gulp-eslint": "^3.0.1",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
+    "html-loader": "^0.4.5",
     "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "pug-html-loader": "^1.1.4",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.3",
     "webpack-stream": "^3.2.0"
