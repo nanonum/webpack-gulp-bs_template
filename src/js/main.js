@@ -1,5 +1,6 @@
 // var $ = require('jquery');
 var _ = require('lodash');
+import "../sass/style.scss"
 
 import 'slick-carousel';
 
