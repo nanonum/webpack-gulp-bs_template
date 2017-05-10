@@ -1,11 +1,20 @@
-// @import "bourbon";
+@import "bourbon";
 
 body{
   margin: 0;
   padding: 40px;
-  background: #fcc;
+  background: #808080;
   color: #3ff;
+  font-family: 'DIN Alternate';
+}
+ul{
+  padding: 0;
 }
 li{
+  list-style: none;
+  background-image: linear-gradient(to right, cyan, purple);
+  color: #333;
+  padding: 8px;
+  margin-bottom: 4px;
   // @include linear-gradient(to right, pink, blue);
 }

@@ -1,12 +1,20 @@
 body {
   margin: 0;
   padding: 40px;
-  background: #333;
-  color: #3ff; }
+  background: #808080;
+  color: #3ff;
+  font-family: 'DIN Alternate';
+}
+
+ul {
+  padding: 0;
+}
 
 li {
-  background-color: pink;
-  background-image: -webkit-linear-gradient(left, pink, blue);
-  background-image: linear-gradient(to right,pink, blue); }
-
-/*# sourceMappingURL=style.css.map*/
+  list-style: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(cyan), to(purple));
+  background-image: linear-gradient(to right, cyan, purple);
+  color: #333;
+  padding: 8px;
+  margin-bottom: 4px;
+}

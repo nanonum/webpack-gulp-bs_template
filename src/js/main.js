@@ -1,6 +1,5 @@
 // var $ = require('jquery');
 var _ = require('lodash');
-import "../sass/style.scss"
 
 import 'slick-carousel';
 
@@ -40,13 +39,12 @@ $(function(){
     console.log(el, index)
   })
 
-  console.log(moment());
   // console.log(vates)
   // console.log(Model);
   // var m = new Model();
   // console.log(m);
 
-  $('#test1').html(moment().format() + '!!!');
+  $('#test1').html(moment().format() + '🍣');
   $('#test2').html('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
 })
