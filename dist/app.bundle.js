@@ -46,17 +46,9 @@ $(function () {
 /***/ }),
 
 /***/ 122:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var Config;
-(function (Config) {
-    Config.ENV = "dev";
-})(Config || (Config = {}));
-exports.default = Config;
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/Users/ws/dropbox/programming/js/webpack/src/ts/config.ts'");
 
 /***/ })
 
