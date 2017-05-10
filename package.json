@@ -6,11 +6,13 @@
   "scripts": {
     "start": "npm run start-serve & gulp & npm run webpack-watch",
     "start-serve": "browser-sync start --config bs-config.js",
-    "webpack-watch": "webpack --config webpack.config.js --watch"
+    "webpack-watch": "webpack --config webpack.config.js --watch",
+    "webpack-plainjs": "webpack --config webpack.config.plain.js --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jquery": "^2.0.43",
     "bourbon": "^4.3.4",
     "bourbon-neat": "^2.0.0",
     "jquery": "^3.2.1",
@@ -31,6 +33,7 @@
     "gulp-sass": "^3.1.0",
     "node-bourbon": "^4.2.8",
     "postcss-cssnext": "^2.10.0",
+    "ts-loader": "^2.0.3",
     "webpack": "^2.4.1"
   }
 }

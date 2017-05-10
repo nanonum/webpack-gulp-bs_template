@@ -3,11 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './src/ts/app.ts',
+    app: './src/js/main.js',
     vendor: ['jquery', 'lodash', 'moment'],
-  },
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js']
   },
   output: {
     filename: '[name].bundle.js',
@@ -15,12 +12,6 @@ module.exports = {
   },
   module:{
     rules: [
-      {
-        test: /\.tsx?$/,
-        use: [
-          {loader: 'ts-loader'}
-        ]
-      }
     ]
   },
   plugins: [
