@@ -2,7 +2,6 @@
 
 import Model from './model';
 import * as $ from 'jquery';
-// import 'slick-carousel';
 
 var user = new Model.Person('Mike');
 $(() => {

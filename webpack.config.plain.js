@@ -26,16 +26,7 @@ module.exports = {
         $: 'jquery',
         jQuery: 'jquery',
         'window.jQuery': 'jquery'
-    }),
-
-    // new webpack.ProvidePlugin({
-    //     Vue: 'Vue'
-    // })
+    })
   ],
-  devtool: 'source-map',
-  // devServer: {
-  //   contentBase: 'dist',
-  //   port: 4000,
-  //   inline: true
-  // }
+  devtool: 'source-map'
 };
