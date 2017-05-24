@@ -8,6 +8,15 @@ webpackとgulpを同時起動し各ファイルをコンパイルするテンプ
 
 # 使い方
 
+
+## インストール
+git cloneの後 npm installとnpm link typescriptする。link忘れると怒られる。
+
+```bash
+$ npm install
+$ npm link typescript
+```
+
 ## start
 
 ```bash
